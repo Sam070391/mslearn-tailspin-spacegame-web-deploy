@@ -3,7 +3,8 @@ trigger:
 
 pool:
   ##vmImage: 'ubuntu-18.04'
-  name: BuildAgentPool1
+  ##name: BuildAgentPool1
+  vmImage: 'Windows-latest'
   demands:
   - npm
 
