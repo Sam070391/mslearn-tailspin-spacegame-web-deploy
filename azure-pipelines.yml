@@ -2,9 +2,9 @@ trigger:
 - '*'
 
 pool:
-  ##vmImage: 'ubuntu-18.04'
+  vmImage: 'ubuntu-20.04'
   ##name: BuildAgentPool1
-  vmImage: 'Windows-latest'
+  ##vmImage: 'Windows-latest'
   demands:
   - npm
 
